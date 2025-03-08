@@ -1,7 +1,7 @@
-Data Science Learning Journey Repository 🚀
+#Data Science Learning Journey Repository 🚀
 Welcome to my Data Science Learning Journey repository! This repository is a collection of Python scripts, Jupyter notebooks, and datasets that document my progress and projects as I dive into the world of Data Science. Whether you're a beginner, a fellow learner, or an experienced professional, feel free to explore, learn, and contribute!
 
-📂 Repository Structure
+📂## Repository Structure
 Here’s an overview of the folders and files in this repository:
 
 1. Lab 1 - Beginning of the Journey
@@ -43,7 +43,7 @@ movies.csv: Dataset containing movie information.
 
 .lab_7-Joining-Analyzing-Review-Data-Pandas-Matplotlib.ipynb: Jupyter notebook for joining and analyzing movie data.
 
-🚀 How to Use This Repository
+🚀## How to Use This Repository
 Clone the Repository:
 
 bash
@@ -71,7 +71,7 @@ bash
 Copy
 jupyter notebook
 
-🌟 Key Skills and Topics Covered
+🌟## Key Skills and Topics Covered
 Python Programming: Basics, loops, functions, and data structures.
 
 Data Manipulation: NumPy, Pandas, and handling CSV files.
@@ -82,7 +82,7 @@ Data Analysis: Joining and analyzing datasets using Pandas.
 
 Problem Solving: Exercises on palindromes, loops, and more.
 
-📊 Datasets Included
+📊## Datasets Included
 employee_data.csv: Employee records for analysis.
 
 students_grades.csv: Student grades for visualization.
@@ -91,7 +91,7 @@ movies.csv: Movie metadata for analysis.
 
 reviews.csv: Movie reviews for sentiment analysis.
 
-💡 Why This Repository?
+💡## Why This Repository?
 This repository is a reflection of my journey into Data Science. It’s a hands-on approach to learning Python, data manipulation, and visualization. By sharing this, I hope to:
 
 Inspire others to start their Data Science journey.
@@ -100,7 +100,7 @@ Provide resources for beginners to learn and practice.
 
 Showcase my progress as I grow in this field.
 
-🤝 How to Contribute
+🤝## How to Contribute
 If you'd like to contribute, feel free to:
 
 Fork the repository.
@@ -122,7 +122,7 @@ Copy
 git push origin feature/your-feature-name
 Open a Pull Request and describe your changes.
 
-📧 Contact Me
+📧## Contact Me
 If you have any questions, suggestions, or just want to connect, feel free to reach out:
 
 Email: amir.lima45@gmai.com
@@ -139,6 +139,7 @@ Special thanks to my mentors and peers for their guidance and support.
 
 Happy Coding! 🚀
 Amir Lima Oliveira
-Data Science Enthusiast
+Environmental Engineer
+Data Science student and enthusiast.
 
 This README is professional, engaging, and provides a clear overview of your repository. It also encourages collaboration and showcases your skills effectively. Feel free to customize it further to match your personal style!
