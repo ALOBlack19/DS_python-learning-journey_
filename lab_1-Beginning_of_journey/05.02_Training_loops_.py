@@ -1,4 +1,5 @@
 #                                       LOOPS EXERCISES
+from snowballstemmer.tamil_stemmer import lab16
 
 # 1. Write a loop to print each character in the string "Python".
 
@@ -145,11 +146,28 @@ print("\nlargest number is:",max_v)
 
 # 4. Write a loop to count how many times the number 4 appears in the list [1, 4, 4, 2, 4, 3].
 
-
+l4 = [1, 4, 4, 2, 4, 3]
+c = []
+for i in l4:
+    if i == 4:
+        c.append(i)
+print(f"\nThe number 4 appears -> {len(c)} <- times")
 
 # 5.Write a loop to create a new list that contains the squares of each number in the list [1, 2, 3, 4, 5].
 
+l5 = [1, 2, 3, 4, 5]
+l_square = []
+for i in l5:
+    l_square.append(i * i)
+print(f"\nOriginal list {l5}\nSquare list {l_square}")
+
 # 6. Write a loop to concatenate all the words in the list ["Python", "is", "awesome"] into a single string.
+
+l6 = ["Python", "is", "awesome"]
+c_l6 = " "
+for i in l6:
+   c_l6 += i + " "
+print(c_l6.strip())
 
 # 7.Write a loop to create a new list that contains only the even numbers from the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
 
