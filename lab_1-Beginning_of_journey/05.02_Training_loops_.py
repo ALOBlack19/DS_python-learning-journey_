@@ -1,5 +1,7 @@
 #                                       LOOPS EXERCISES
-from snowballstemmer.tamil_stemmer import lab16
+from operator import index
+
+from decorator import append
 
 # 1. Write a loop to print each character in the string "Python".
 
@@ -167,12 +169,51 @@ l6 = ["Python", "is", "awesome"]
 c_l6 = " "
 for i in l6:
    c_l6 += i + " "
-print(c_l6.strip())
+print("\n",c_l6.strip())
 
 # 7.Write a loop to create a new list that contains only the even numbers from the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
 
+l7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+l_even = []
+l_odd = []
+for i in l7:
+    if i % 2 == 0:
+        l_even.append(i)
+    else:
+        l_odd.append(i)
+
+print("\nThe even numbers of the list are: ",l_even)
+print("\nThe odd numbers of the list are: ",l_odd)
+
 # 8. Write a loop to multiply each number in the list [2, 4, 6, 8] by 2 and store the results in a new list.
+
+l8 = [2, 4, 6, 8]
+l_mult_2 = []
+
+for i in l8:
+    l_mult_2.append(i * 2)
+print("\nOriginal list: ",l8)
+print("\nList multiplied by 2: ",l_mult_2)
 
 # 9. Write a loop to remove all occurrences of the number 3 from the list [1, 3, 3, 4, 3, 5, 3].
 
+l9 = [1, 3, 3, 4, 3, 5, 3]
+l_without_3 = []
+
+for i in l9:
+    if i != 3:
+        l_without_3.append(i)
+
+print("\nOrinial list: ",l9)
+print("\nList without 3: ",l_without_3)
+
+
 # 10. Write a loop to find the index of the first occurrence of the number 7 in the list [5, 7, 8, 7, 10].
+
+l10 = [5, 7, 8, 7, 10]
+position_of_7 = 0
+for i in l10:
+    if i == 7:
+        position_of_7 = l10.index(7)
+print("The first occurrence of the number 7 is the INDEX: ",position_of_7)
+
