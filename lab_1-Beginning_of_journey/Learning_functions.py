@@ -77,8 +77,9 @@ def factorial(num):
     :return:
     """
     fac = 1
-    for i in range(2,num+1):
+    for i in range(2,num + 1):
         fac *= i
+        print(i,fac) # Getting the main idea of the core code -> for i in range(2,num + 1) <- This makes the factorial happen.
     return fac
 print(f"The factorial is: ",factorial(4))
 
