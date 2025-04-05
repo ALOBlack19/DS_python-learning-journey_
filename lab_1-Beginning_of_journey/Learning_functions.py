@@ -16,7 +16,7 @@ def greet ():
 print(greet())
 
 
-# 2. Return Values: Create a function square that takes an integer and returns its square.
+# # 2. Return Values: Create a function square that takes an integer and returns its square.
 
 def square():
     num = input("Insert a number to let it square: ")
@@ -34,13 +34,53 @@ print(square())
 
 # 3. Multiple Parameters: Write a function add that takes two numbers as parameters and returns their sum.
 
-
+def add(x, y):
+    """
+    :param x:
+    :param y:
+    :return:
+    """
+    return x + y
+print(f"The sum of the number is",add(5,8))
 
 # 4. Default Parameters: Write a function greet_user that greets the user with a default name if no name is provided. The default name should be "Guest".
 
+def greet_user(name= "Guest"):
+    """
+    :param name:
+    :return:
+    """
+    return  f"Welcome {name}"
+
+print(greet_user())
+
 # 5. Keyword Arguments: Write a function format_address that takes street, city, and country as keyword arguments and returns a formatted address string.
 
+def format_address(house_number, street, city, country, code):
+    """
+    :param house_number:
+    :param street:
+    :param city:
+    :param country:
+    :param code:
+    :return:
+    """
+    return f" {house_number} {street}, {city}, {country}, {code}"
+
+print("Address: ", format_address(1463, "North 8th Avenue", "Vancouver", "Canada", "V7P 1R8"))
+
 # 6. Docstrings: Create a function factorial that calculates the factorial of a given number and includes a docstring explaining the function.
+
+def factorial(num):
+    """
+    :param num:
+    :return:
+    """
+    fac = 1
+    for i in range(2,num+1):
+        fac *= i
+    return fac
+print(f"The factorial is: ",factorial(4))
 
 # 7. Calculate BMI: Write a function calc_bmi that takes 2 numbers (height and weight) and returns the bmi.
 
